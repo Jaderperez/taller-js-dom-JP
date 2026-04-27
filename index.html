@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taller DOM con JavaScript</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1 class="titulo-pagina">🧠 Taller: Manipulación del DOM</h1>
+  </header>
+
+  <main>
+
+    <!-- ========== EJERCICIO 1 ========== -->
+    <section class="tarjeta">
+      <h2>📌 Ejercicio 1 — Selección de Elementos</h2>
+      <p>Abre la consola del navegador (F12) para ver los elementos seleccionados.</p>
+
+      <h1 id="titulo">Hola Mundo</h1>
+      <p class="descripcion">Texto de prueba</p>
+    </section>
+
+    <!-- ========== EJERCICIO 2 ========== -->
+    <section class="tarjeta">
+      <h2>📌 Ejercicio 2 — Modificar Contenido</h2>
+      <p>Al hacer clic en el botón, el texto del título cambia.</p>
+
+      <button id="btn-cambiar-texto">Cambiar texto del título</button>
+    </section>
+
+    <!-- ========== EJERCICIO 3 ========== -->
+    <section class="tarjeta">
+      <h2>📌 Ejercicio 3 — Cambiar Estilos</h2>
+      <p>Al hacer clic, se cambia el color, tamaño de fuente y fondo del título.</p>
+
+      <button id="btn-cambiar-estilos">Cambiar estilos del título</button>
+    </section>
+
+    <!-- ========== EJERCICIO 4 ========== -->
+    <section class="tarjeta">
+      <h2>📌 Ejercicio 4 — Eventos en tiempo real</h2>
+      <p>Escribe algo en el campo para ver el resultado en la parte de abajo:</p>
+
+      <input type="text" id="campo-texto" placeholder="Escribe aquí..." />
+      <p id="texto-mostrado">Aquí aparecerá lo que escribas...</p>
+    </section>
+
+    <!-- ========== MINI PROYECTO ========== -->
+    <section class="tarjeta" id="contador-seccion">
+      <h2>🚀 Mini Proyecto — Contador Interactivo</h2>
+      <p>Uso de botones para aumentar o disminuir el contador.</p>
+
+      <h2>Contador</h2>
+      <p id="numero">0</p>
+
+      <div class="botones-contador">
+        <button id="aumentar">＋</button>
+        <button id="disminuir">－</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
